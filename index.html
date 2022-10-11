@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- style.css -->
   </head>
@@ -13,10 +17,14 @@
 
   <body>
         <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-2">
-        <div class="container-md">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-2 align-between">
+        <div>
+            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+        </div>
+        <div>
 
-          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          
+          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
           data-bs-target="#navbarNavAltMarkup" 
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,11 +46,11 @@
         <section class="bg-green-light">
             <div class="container-md">
                 <div class="row">
-                    <div class="col-md-8 offset-md-2 text-center text-white">
+                    <div class="col-md-8 offset-md-2 text-center    text-white">
                         <img src="./assets/img/avatar.svg" class="max-250 mt-5 ms-3" alt="">
                         <h2 class="fw-bold mt-3 ">START BOOTSTRAP</h2>
                             <!-- ICONA -->
-                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center   align-items-center">
                             <div class="line"></div>
                                     <div> 
                                     <i class="fa-solid fa-star mx-4 text-white"></i>
@@ -60,46 +68,127 @@
 
         </section>
 
+        <!-- PORTFOLIO -->
         <section>
             <div class="container-md text-center my-5">
-                    <h2 class="text-uppercase">PORTFOLIO</h2>
-                      <div class="d-flex justify-content-center align-items-center">
-                 <div class="line bg-dark"></div>
-                <div> 
-               <i class="fa-solid fa-star mx-4 "></i>
-             </div>
-                 <div class="line bg-dark"></div>
+                <h2 class="text-uppercase">portfolio</h2>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="line bg-dark"></div>
+                    <div> 
+                        <i class="fa-solid fa-star mx-4 "></i>
+                    </div>
+                    <div class="line bg-dark"></div>
+                </div>
             </div>
 
             <!-- cols -->
             <div class="row my-5 g-3">
                 <div class="col-md-6 col-lg-4">
-                    <img class="img-fluid round" src="./assets/img/cabin.png" alt="">
+                    <img class="img-fluid rounded" src="./assets/img/cabin.png" alt="">
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <img class="img-fluid round" src="./assets/img/cake.png" alt="">
+                    <img class="img-fluid rounded" src="./assets/img/cake.png" alt="">
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <img class="img-fluid round" src="./assets/img/circus.png" alt="">
+                    <img class="img-fluid rounded" src="./assets/img/circus.png" alt="">
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <img class="img-fluid round" src="./assets/img/game.png" alt="">
+                    <img class="img-fluid rounded" src="./assets/img/game.png" alt="">
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <img class="img-fluid round" src="./assets/img/safe.png" alt="">
+                    <img class="img-fluid rounded" src="./assets/img/safe.png" alt="">
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <img class="img-fluid round" src="./assets/img/submarine.png" alt="">
+                    <img class="img-fluid rounded" src="./assets/img/submarine.png" alt="">
                 </div>
             </div>
 
 
         </section>
 
+        <section class="bg-green-light">
+            <div class="container-md text-center my-5 text-white">
+                <h2 class="text-uppercase pt-3">about</h2>
+                <div class="d-flex justify-content-center               align-items-center">
+                    <div class="line bg-light"></div>
+                    <div> 
+                        <i class="fa-solid fa-star mx-4 "></i>
+                    </div>
+                    <div class="line bg-light"></div>
+                </div>
+                
+                <!-- 2 COLS TEXT -->
+                <div class="row gy-4 pt-3 justify-content-center">
+                    
+                    <div class="col-md col-8 text-start">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga repellat, tempora odio reprehenderit enim rerum sed voluptatibus provident rem officia tempore
+                    </div>
+                    <div class="col-md col-8 text-start">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam rerum explicabo esse illo nesciunt voluptates, molestias itaque veritatis magnam vel voluptatibus
+                    </div>
+                </div>
+
+                <div class="pt-4 pb-3">
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i>  Download</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <!-- title -->
+            <div class="container-md text-center my-5">
+                <h2 class="text-uppercase pt-3">contact me</h2>
+                <div class="d-flex justify-content-center               align-items-center">
+                    <div class="line bg-dark"></div>
+                    <div> 
+                        <i class="fa-solid fa-star mx-4 "></i>
+                    </div>
+                    <div class="line bg-dark"></div>
+                </div>
+                <!-- FLUSH -->
+                <div class="container">
+                <div class="row justify-content-center">
+                    <ul class="list-group list-group-flush text-start col-8">
+                        <li class="list-group-item">Name</li>
+                        <li class="list-group-item">Email Adress</li>
+                        <li class="list-group-item">Phone Number</li>
+                        <li class="list-group-item pt-3 pb-5">Message</li>
+                        <li class="list-group-item">
+                        <nav>
+                            <button type="button" class="btn bg-green-light text-white">Send</button>
+                        </nav>
+                    </ul>
+
+                </div>
+
+                </div>  
+            </section>
+        </main>
+<!-- FOOTER                 -->
+<footer class="bg-dark-2 text-white">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 text-uppercase pt-3 text-center">
+            <h3>location</h3>
+            <h3>2215 John Daniel Drive Clark, MO 54243</h3>
+        </div>
+        <div class="col-12 col-md-4 text-uppercase pt-4 text-center">
+        <h3>around the web</h3>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-google-plus-g"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+        <div class="col-12 col-md-4 pt-4 text-center pb-5">
+            <h3 class="text-uppercase">about freelancer</h3>
+            <h3>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</h3>
+        </div>
+    </div>
+</div>
+</footer>
 
 
-
-    </main>
+    
 
 
 

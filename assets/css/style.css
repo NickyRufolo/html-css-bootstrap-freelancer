@@ -12,9 +12,7 @@ li {
 background-color: #1ABC;
 }
 
-.navbar-collapse {
-flex-grow: 0;
-}
+
 
 .max-250 {
     max-width: 250px;
@@ -28,4 +26,8 @@ flex-grow: 0;
 }
 .font-15 {
     font-size: 15px;
+}
+
+.align-between{
+    justify-content: space-around;
 }
