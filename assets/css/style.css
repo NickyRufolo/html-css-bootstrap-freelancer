@@ -4,7 +4,7 @@ li {
 }
 
 
-.bg-blue-dark {
+.bg-dark-2 {
     background-color: #2C3E50;
 }
 
@@ -16,4 +16,13 @@ background-color: #1ABC;
 flex-grow: 0;
 }
 
+.max-250 {
+    max-width: 250px;
+}
 
+.linea {
+    height: 3px;
+    background-color: white;
+    width: 30%;
+    max-width: 200px;
+}
