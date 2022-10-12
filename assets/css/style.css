@@ -31,3 +31,13 @@ background-color: #1ABC;
 .align-between{
     justify-content: space-around;
 }
+
+footer .circle {
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor:pointer;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
